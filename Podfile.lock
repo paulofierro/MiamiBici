@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyXML (2.0.0)
+
+DEPENDENCIES:
+  - SwiftyXML (~> 2.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyXML
+
+SPEC CHECKSUMS:
+  SwiftyXML: 332cbc28563e25303879777375dfbbd746b5ad2a
+
+PODFILE CHECKSUM: ae96bb0ca20788f349679dff59c2c3f57aefec63
+
+COCOAPODS: 1.6.1

@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A6195582277DF4A00B80058 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6195572277DF4A00B80058 /* LocationAnnotation.swift */; };
+		3A61955A2277E62B00B80058 /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6195592277E62B00B80058 /* LocationAnnotationView.swift */; };
 		3AE42CE72277D2550077118A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42CE62277D2550077118A /* AppDelegate.swift */; };
-		3AE42CE92277D2550077118A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42CE82277D2550077118A /* ViewController.swift */; };
+		3AE42CE92277D2550077118A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42CE82277D2550077118A /* MapViewController.swift */; };
 		3AE42CEC2277D2550077118A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE42CEA2277D2550077118A /* Main.storyboard */; };
 		3AE42CEE2277D2570077118A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE42CED2277D2570077118A /* Assets.xcassets */; };
 		3AE42CF12277D2570077118A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE42CEF2277D2570077118A /* LaunchScreen.storyboard */; };
-		3AE42CFC2277D2570077118A /* Miami_BiciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42CFB2277D2570077118A /* Miami_BiciTests.swift */; };
+		3AE42D072277D3610077118A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42D062277D3610077118A /* MapViewModel.swift */; };
+		3AE42D092277D4200077118A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE42D082277D4200077118A /* Constants.swift */; };
+		EB73BBB3DC6AB1F33744C7FC /* Pods_Miami_Bici.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55FAB6D32D38F58F80788DB /* Pods_Miami_Bici.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3AE42CF82277D2570077118A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3AE42CDB2277D2550077118A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AE42CE22277D2550077118A;
-			remoteInfo = "Miami Bici";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3A6195572277DF4A00B80058 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		3A6195592277E62B00B80058 /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
 		3AE42CE32277D2550077118A /* Miami Bici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miami Bici.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE42CE62277D2550077118A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AE42CE82277D2550077118A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE42CE82277D2550077118A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3AE42CEB2277D2550077118A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AE42CED2277D2570077118A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AE42CF02277D2570077118A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AE42CF22277D2570077118A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AE42CF72277D2570077118A /* Miami BiciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miami BiciTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AE42CFB2277D2570077118A /* Miami_BiciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miami_BiciTests.swift; sourceTree = "<group>"; };
-		3AE42CFD2277D2570077118A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE42D062277D3610077118A /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		3AE42D082277D4200077118A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B4B9EE5E5238902FBC869C7 /* Pods-Miami Bici.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miami Bici.debug.xcconfig"; path = "Target Support Files/Pods-Miami Bici/Pods-Miami Bici.debug.xcconfig"; sourceTree = "<group>"; };
+		B55FAB6D32D38F58F80788DB /* Pods_Miami_Bici.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Miami_Bici.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA244CB65859BE724916E26A /* Pods-Miami Bici.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Miami Bici.release.xcconfig"; path = "Target Support Files/Pods-Miami Bici/Pods-Miami Bici.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,25 +41,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AE42CF42277D2570077118A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EB73BBB3DC6AB1F33744C7FC /* Pods_Miami_Bici.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AC537BD9726C8D27F15314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAB6D32D38F58F80788DB /* Pods_Miami_Bici.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A61955B2277EBD200B80058 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				3A6195572277DF4A00B80058 /* LocationAnnotation.swift */,
+				3A6195592277E62B00B80058 /* LocationAnnotationView.swift */,
+				3AE42CE82277D2550077118A /* MapViewController.swift */,
+				3AE42D062277D3610077118A /* MapViewModel.swift */,
+			);
+			path = "Map View";
+			sourceTree = "<group>";
+		};
 		3AE42CDA2277D2550077118A = {
 			isa = PBXGroup;
 			children = (
 				3AE42CE52277D2550077118A /* Miami Bici */,
-				3AE42CFA2277D2570077118A /* Miami BiciTests */,
 				3AE42CE42277D2550077118A /* Products */,
+				F4359627AA44FF15008D02EA /* Pods */,
+				09AC537BD9726C8D27F15314 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				3AE42CE32277D2550077118A /* Miami Bici.app */,
-				3AE42CF72277D2570077118A /* Miami BiciTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,23 +88,24 @@
 		3AE42CE52277D2550077118A /* Miami Bici */ = {
 			isa = PBXGroup;
 			children = (
+				3AE42CF22277D2570077118A /* Info.plist */,
 				3AE42CE62277D2550077118A /* AppDelegate.swift */,
-				3AE42CE82277D2550077118A /* ViewController.swift */,
-				3AE42CEA2277D2550077118A /* Main.storyboard */,
+				3AE42D082277D4200077118A /* Constants.swift */,
 				3AE42CED2277D2570077118A /* Assets.xcassets */,
 				3AE42CEF2277D2570077118A /* LaunchScreen.storyboard */,
-				3AE42CF22277D2570077118A /* Info.plist */,
+				3AE42CEA2277D2550077118A /* Main.storyboard */,
+				3A61955B2277EBD200B80058 /* Map View */,
 			);
 			path = "Miami Bici";
 			sourceTree = "<group>";
 		};
-		3AE42CFA2277D2570077118A /* Miami BiciTests */ = {
+		F4359627AA44FF15008D02EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3AE42CFB2277D2570077118A /* Miami_BiciTests.swift */,
-				3AE42CFD2277D2570077118A /* Info.plist */,
+				7B4B9EE5E5238902FBC869C7 /* Pods-Miami Bici.debug.xcconfig */,
+				EA244CB65859BE724916E26A /* Pods-Miami Bici.release.xcconfig */,
 			);
-			path = "Miami BiciTests";
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AE42D002277D2570077118A /* Build configuration list for PBXNativeTarget "Miami Bici" */;
 			buildPhases = (
+				AD61CF18B21B832F1725C472 /* [CP] Check Pods Manifest.lock */,
 				3AE42CDF2277D2550077118A /* Sources */,
 				3AE42CE02277D2550077118A /* Frameworks */,
 				3AE42CE12277D2550077118A /* Resources */,
+				03C229E98BB4441CEE697F18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,24 +129,6 @@
 			productName = "Miami Bici";
 			productReference = 3AE42CE32277D2550077118A /* Miami Bici.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3AE42CF62277D2570077118A /* Miami BiciTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AE42D032277D2570077118A /* Build configuration list for PBXNativeTarget "Miami BiciTests" */;
-			buildPhases = (
-				3AE42CF32277D2570077118A /* Sources */,
-				3AE42CF42277D2570077118A /* Frameworks */,
-				3AE42CF52277D2570077118A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3AE42CF92277D2570077118A /* PBXTargetDependency */,
-			);
-			name = "Miami BiciTests";
-			productName = "Miami BiciTests";
-			productReference = 3AE42CF72277D2570077118A /* Miami BiciTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -146,10 +142,6 @@
 				TargetAttributes = {
 					3AE42CE22277D2550077118A = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					3AE42CF62277D2570077118A = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3AE42CE22277D2550077118A;
 					};
 				};
 			};
@@ -167,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				3AE42CE22277D2550077118A /* Miami Bici */,
-				3AE42CF62277D2570077118A /* Miami BiciTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,42 +174,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AE42CF52277D2570077118A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C229E98BB4441CEE697F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Miami Bici/Pods-Miami Bici-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXML/SwiftyXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXML.framework",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Miami Bici/Pods-Miami Bici-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		AD61CF18B21B832F1725C472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Miami Bici-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AE42CDF2277D2550077118A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE42CE92277D2550077118A /* ViewController.swift in Sources */,
+				3AE42CE92277D2550077118A /* MapViewController.swift in Sources */,
 				3AE42CE72277D2550077118A /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AE42CF32277D2570077118A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AE42CFC2277D2570077118A /* Miami_BiciTests.swift in Sources */,
+				3AE42D072277D3610077118A /* MapViewModel.swift in Sources */,
+				3AE42D092277D4200077118A /* Constants.swift in Sources */,
+				3A61955A2277E62B00B80058 /* LocationAnnotationView.swift in Sources */,
+				3A6195582277DF4A00B80058 /* LocationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3AE42CF92277D2570077118A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3AE42CE22277D2550077118A /* Miami Bici */;
-			targetProxy = 3AE42CF82277D2570077118A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AE42CEA2277D2550077118A /* Main.storyboard */ = {
@@ -358,6 +377,7 @@
 		};
 		3AE42D012277D2570077118A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4B9EE5E5238902FBC869C7 /* Pods-Miami Bici.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,13 +389,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jadehopper.Miami-Bici";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3AE42D022277D2570077118A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA244CB65859BE724916E26A /* Pods-Miami Bici.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,50 +408,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jadehopper.Miami-Bici";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3AE42D042277D2570077118A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NG69HBMD6R;
-				INFOPLIST_FILE = "Miami BiciTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jadehopper.Miami-BiciTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miami Bici.app/Miami Bici";
-			};
-			name = Debug;
-		};
-		3AE42D052277D2570077118A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NG69HBMD6R;
-				INFOPLIST_FILE = "Miami BiciTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jadehopper.Miami-BiciTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miami Bici.app/Miami Bici";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -451,15 +430,6 @@
 			buildConfigurations = (
 				3AE42D012277D2570077118A /* Debug */,
 				3AE42D022277D2570077118A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AE42D032277D2570077118A /* Build configuration list for PBXNativeTarget "Miami BiciTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AE42D042277D2570077118A /* Debug */,
-				3AE42D052277D2570077118A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
