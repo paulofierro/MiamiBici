@@ -1,6 +1,6 @@
 platform :ios, '12.0'
-# Uncomment the lines below if you have 
-# the cocoapods-binary gem installed
+# Uncomment the lines below if you have the cocoapods-binary gem installed
+# and want to get on the speed train.
 #plugin 'cocoapods-binary'
 
 target 'Miami Bici' do
@@ -9,7 +9,6 @@ target 'Miami Bici' do
   #enable_bitcode_for_prebuilt_frameworks!
   #keep_source_code_for_prebuilt_frameworks!
 
-  # https://github.com/chenyunguiMilook/SwiftyXML
-  pod 'SwiftyXML', '~> 2.0.0'
+  pod 'SwiftyXML', '~> 2.0.0' # https://github.com/chenyunguiMilook/SwiftyXML
 
 end
