@@ -5,17 +5,10 @@ disabled_rules:
    - line_length         # Ignore line length rules
    - trailing_whitespace # Allow lines to only contain a TAB, since Xcode does this by default on newlines
    - todo                # Allow TODO comments
-   - identifier_name     # Allow vars that use non-alphanumberic characters (like "_")
+   - identifier_name     # Allow vars that use non-alphanumberic characters
 
 force_cast: warning
 force_try: warning
 
 excluded:
   - Pods
-
-# Allow 2 spaces of whitespace
-vertical_whitespace:
-  max_empty_lines: 2
-
-empty_count: warning
-shorthand_operator: warning
